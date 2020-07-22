@@ -1,0 +1,32 @@
+.h5p-speech-recognition-button,
+.h5p-speech-recognition-button:first-child,
+.h5p-speech-recognition-button:last-child,
+.h5p-speech-recognition-button:first-child:last-child {
+  margin: 0;
+}
+
+.h5p-speech-recognition-button::before {
+  content: "\F130";
+}
+
+.h5p-speech-recognition-button.h5p-speech-recognition-listening {
+  background-color: #dd2e2e;
+  box-shadow: none;
+}
+
+.h5p-speech-recognition-button.h5p-speech-recognition-disabled {
+  background-color: #b1b1b1;
+  cursor: inherit;
+}
+
+.h5p-speech-recognition-button.h5p-speech-recognition-none {
+  display: none;
+}
+
+.h5p-speech-recognition-button.h5p-speech-recognition-no-microphone {
+  background-color: #dd2e2e;
+}
+
+.h5p-speech-recognition-button.h5p-speech-recognition-no-microphone::before {
+  content: "\F131";
+}

@@ -1,0 +1,36 @@
+{
+  "name": "h5p-speech-recognition",
+  "version": "1.0.0",
+  "description": "Library to use speech recognition in H5P content types",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack -p",
+    "watch": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "h5p",
+    "library"
+  ],
+  "author": "KidsLoop",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "annyang": "^2.6.1",
+    "babel-loader": "^8.1.0",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "cross-env": "^5.2.1",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "resolve-url-loader": "^3.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
