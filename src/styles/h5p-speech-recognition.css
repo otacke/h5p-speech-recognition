@@ -27,6 +27,10 @@
   background-color: #dd2e2e;
 }
 
+.h5p-speech-recognition-button.h5p-speech-recognition-no-microphone:active {
+  box-shadow: none;
+}
+
 .h5p-speech-recognition-button.h5p-speech-recognition-no-microphone::before {
   content: "\F131";
 }
